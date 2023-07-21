@@ -1,0 +1,27 @@
+#image-track> .image {
+    width: 100vmin;
+    height: 20vmin;
+    object-fit: cover;
+    object-position: 50% 100%;
+    cursor: pointer;
+    transition: .5s all linear;
+}
+
+
+#image-track {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, 0%);
+    padding-bottom: 50px;
+    user-select: none;
+}
+
+body {
+    background-color: whitesmoke;
+    overflow: hidden;
+}
